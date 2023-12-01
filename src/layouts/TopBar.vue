@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="pt-8 px-8 bg">
-      <v-row class="justify-space-between red">
+      <v-row class="justify-space-between">
         <v-col cols="12" lg="2" md="12" sm="12">
           <v-toolbar-title class="text-center">
             <img
