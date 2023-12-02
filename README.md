@@ -1,4 +1,4 @@
-# Signup-Login
+# Alchelyst
 
 ## Project setup
 ```

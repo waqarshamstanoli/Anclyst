@@ -42,7 +42,17 @@ export default {
   font-weight: 800 !important;
   color: #303532 !important;
 }
-
+.v-application .body-1 {
+  font-family: 'Raleway' !important;
+  font-weight: 600 !important;
+}
+.v-application .text-h5 {
+  font-size: 24px !important;
+  font-weight: 600 !important;
+  font-family: 'Open_Sans' !important;
+  line-height: 32.68px !important;
+  color: #939393 ;
+}
 @media only screen and (max-width: 600px) {
   .v-application .text-h1 {
     font-size: 40px !important;
@@ -70,8 +80,16 @@ export default {
 .v-application .text-h4 {
   font-size: 22px !important;
   font-weight: 500 !important;
+  font-family: 'Raleway' !important;
   line-height: 33px !important;
   color: #303532 !important;
+}
+.v-application .text-h6 {
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  font-family: 'Open_Sans' !important;
+  line-height: 33px !important;
+  // color: #303532 !important;
 }
 .v-application .text-caption {
   font-size: 40px !important;
@@ -79,22 +97,26 @@ export default {
   line-height: 3.25rem !important;
   letter-spacing: 0.0333333333em !important;
   color: #303532 !important;
+  
 }
 
 .v-application .subtitle-2 {
   font-size: 17px !important;
-  font-weight: 500;
+  font-weight: 500 !important;
   color: #303532 !important;
+  font-family: 'Raleway' !important;
 }
 
 .fs40 {
   font-size: 40px;
   color: #303532 !important;
   font-weight: 700 !important;
+  font-family: 'Raleway' !important;
 }
 
 .cardText {
   color: #939393 !important;
+  font-weight: 600 !important;
 }
 .v-card.v-sheet.theme--light.rounded {
   border-radius: 15px !important;
@@ -123,20 +145,20 @@ export default {
 
 @font-face {
   font-family: "Raleway";
-  src: local("Raleway"), url(../assets/Raleway/static/Raleway-Regular.ttf) format("truetype");
+  src: url('../assets/Raleway/static/Raleway-Regular.ttf');
 }
 
 @font-face {
   font-family: "Open_Sans";
-  src: local("Open_Sans"), url(../assets/Open_Sans/static/OpenSans-Regular.ttf) format("truetype");
+  src:url('../assets/Open_Sans/static/OpenSans-Regular.ttf');
 }
 
 .openSans {
-  font-family: "Open_Sans";
+  font-family: "Open_Sans" !important;
 }
 
 .raleway {
-  font-family: "Raleway";
+  font-family: "Raleway" !important;
 }
 
 .v-layout {
@@ -153,8 +175,11 @@ export default {
     padding-right: 10px;
   }
 }
+.fs36{
+font-size: 36px;
+}
 .gradient-container2 {
-  background: linear-gradient(to bottom left, #f8f8f8, #edf5f5, #f8f8f8, #f4f7f7);
+  background: linear-gradient(to bottom left, #f8f8f8, #f1f6f6, #f8f8f8, #f1f6f6);
   padding-left: 100px;
   padding-right: 100px;
   padding-bottom: 120px;

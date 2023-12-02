@@ -1,6 +1,6 @@
 <template>
   <div class="content">
-    <v-container fluid class="px-0">
+    <v-container fluid class="">
       <router-view></router-view>
     </v-container>
   </div>

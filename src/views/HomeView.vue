@@ -27,7 +27,7 @@
           <p
             class="mt-md-16 text-center font-weight-black openSans mb-0 text-h1"
           >
-            How can Zimed® PF help?
+          How can Zimed<sup class="fs36 font-weight-bold pl-0">® </sup> PF help?
           </p>
           <img src="../assets/Rectangle 43.svg" alt="" />
         </div>
@@ -41,36 +41,36 @@
             <v-flex xs12 md6 lg6 class="pl-4">
               <v-card
                 rounded
-                class="mt-6 mt-lg-16 ml-md-16 pa-0 pa-md-4 elevation-0"
+                class="mt-6 mt-lg-16 ml-md-16  pa-md-4 elevation-0"
                 width="95%"
               >
                 <v-card-text>
                   <p class="openSans text-h5 font-weight-medium cardText">
-                    ZIMED® PF's recommended dosage is one drop in the affected
+                    ZIMED<sup class="">® </sup> PF's recommended dosage is one drop in the affected
                     eye(s) once daily in the evening.
                   </p>
                 </v-card-text>
               </v-card>
               <v-card
                 rounded
-                class="mt-6 mt-lg-16 ml-md-16 pa-0 pa-md-4 elevation-0"
+                class="mt-6 mt-lg-16 ml-md-16  pa-md-4 elevation-0"
                 width="95%"
               >
                 <v-card-text>
                   <p class="openSans text-h5 font-weight-medium cardText">
-                    ZIMED® PF is a 100% Preservative - free formula dispensed in
+                    ZIMED<sup >® </sup> PF is a 100% Preservative - free formula dispensed in
                     a multi-dose bottle.
                   </p>
                 </v-card-text>
               </v-card>
               <v-card
                 rounded
-                class="mt-6 mt-lg-16 ml-md-16 pa-0 pa-md-4 elevation-0"
+                class="mt-6 mt-lg-16 ml-md-16 pa-md-4 elevation-0"
                 width="95%"
               >
                 <v-card-text>
                   <p class="openSans text-h5 font-weight-medium cardText">
-                    ZIMED® PF is stored between 15 °C and 25 °C, no
+                    ZIMED<sup>® </sup> PF is stored between 15 °C and 25 °C, no
                     refrigeration needed.
                   </p>
                 </v-card-text>
@@ -84,7 +84,7 @@
       <v-col cols="12" lg="12" md="12" sm="12">
         <div class="text-center">
           <p class="mt-md-16 font-weight-black openSans mb-0 text-h1">
-            How to use Zimed® PF?
+            How to use Zimed<sup class="fs36 pl-0">® </sup> PF?
           </p>
           <img src="../assets/Rectangle 43.svg" alt="" />
         </div>
@@ -92,16 +92,20 @@
     </v-row>
     <v-row class="gradient-container pt-8 pb-16">
       <v-col cols="12" lg="4" md="12" sm="12">
+        <v-hover
+        v-slot="{ hover }"
+      >
         <v-card
           rounded
-          color="white"
+          :color="hover ? 'white' : 'transparent'"
+          :class="{ 'on-hover': hover }"
           width="80%"
           height="352"
           class="pa-10 elevation-0"
         >
           <div class="text-center">
             <img src="../assets/Group 4639 (1).svg" />
-            <v-card-title class="justify-center font-weight-bold text-h5"
+            <v-card-title class="justify-center black--text font-weight-bold text-h5"
               >Step 1</v-card-title
             >
             <p class="subtitle-2 raleway">
@@ -111,18 +115,23 @@
             </p>
           </div>
         </v-card>
+      </v-hover>
       </v-col>
       <v-col cols="12" lg="4" md="12" sm="12">
+        <v-hover
+        v-slot="{ hover }"
+      >
         <v-card
           rounded
-          color="transparent"
+          :color="hover ? 'white' : 'transparent'"
+          :class="{ 'on-hover': hover }"
           width="80%"
           height="352"
           class="pa-10 elevation-0"
         >
           <div class="text-center">
             <img src="../assets/Group 4640.svg" />
-            <v-card-title class="justify-center font-weight-bold text-h5"
+            <v-card-title class="justify-center black--text font-weight-bold text-h5"
               >Step 2</v-card-title
             >
             <p class="subtitle-2 raleway">
@@ -130,18 +139,23 @@
             </p>
           </div>
         </v-card>
+        </v-hover>
       </v-col>
       <v-col cols="12" lg="4" md="12" sm="12">
+        <v-hover
+        v-slot="{ hover }"
+      >
         <v-card
           rounded
-          color="transparent"
+          :color="hover ? 'white' : 'transparent'"
+          :class="{ 'on-hover': hover }"
           width="80%"
           height="352"
           class="pa-10 elevation-0"
         >
           <div class="text-center">
             <img src="../assets/Group 4641.svg" />
-            <v-card-title class="justify-center font-weight-bold text-h5"
+            <v-card-title class="justify-center black--text font-weight-bold text-h5"
               >Step 3</v-card-title
             >
             <p class="subtitle-2 raleway">
@@ -149,18 +163,23 @@
             </p>
           </div>
         </v-card>
+        </v-hover>
       </v-col>
       <v-col cols="12" lg="4" md="12" sm="12">
+        <v-hover
+        v-slot="{ hover }"
+      >
         <v-card
           rounded
-          color="transparent"
+          :color="hover ? 'white' : 'transparent'"
+          :class="{ 'on-hover': hover }"
           width="80%"
           height="352"
           class="pa-10 elevation-0"
         >
           <div class="text-center">
             <img src="../assets/Group 4644.svg" />
-            <v-card-title class="justify-center font-weight-bold text-h5"
+            <v-card-title class="justify-center black--text font-weight-bold text-h5"
               >Step 4</v-card-title
             >
             <p class="subtitle-2 raleway">
@@ -169,18 +188,23 @@
             </p>
           </div>
         </v-card>
+        </v-hover>
       </v-col>
       <v-col cols="12" lg="4" md="12" sm="12">
+        <v-hover
+        v-slot="{ hover }"
+      >
         <v-card
           rounded
-          color="transparent"
+          :color="hover ? 'white' : 'transparent'"
+          :class="{ 'on-hover': hover }"
           width="80%"
           height="352"
           class="pa-10 elevation-0"
         >
           <div class="text-center">
             <img src="../assets/Group 4643.svg" />
-            <v-card-title class="justify-center font-weight-bold text-h5"
+            <v-card-title class="justify-center black--text font-weight-bold text-h5"
               >Step 5</v-card-title
             >
             <p class="subtitle-2 raleway">
@@ -188,18 +212,23 @@
             </p>
           </div>
         </v-card>
+        </v-hover>
       </v-col>
       <v-col cols="12" lg="4" md="12" sm="12">
+        <v-hover
+        v-slot="{ hover }"
+      >
         <v-card
           rounded
-          color="transparent"
+          :color="hover ? 'white' : 'transparent'"
+          :class="{ 'on-hover': hover }"
           width="80%"
           height="352"
           class="pa-10 elevation-0"
         >
           <div class="text-center">
             <img src="../assets/Group 4642.svg" />
-            <v-card-title class="justify-center font-weight-bold text-h5"
+            <v-card-title class="justify-center black--text font-weight-bold text-h5"
               >Step 6</v-card-title
             >
             <p class="subtitle-2 raleway">
@@ -207,6 +236,7 @@
             </p>
           </div>
         </v-card>
+        </v-hover>
       </v-col>
     </v-row>
     <v-row style="background-color: #fdfdfd">
@@ -221,9 +251,10 @@
         <h1
           class="mt-md-16 font-weight-black openSans mb-0 text-center text-md-left text-h2"
         >
-          Storing Zimed® PF
+          Storing Zimed<sup class="fs36 pl-0">® </sup> PF
         </h1>
-        <p class="mt-16 text-h4 raleway px-8 px-md-0">
+        <v-card width="80%" color="transparent" class="elevation-0">
+        <p class="mt-16 text-h4 raleway pr-8 ">
           Before putting the cap back on, shake the bottle once in a downwards
           direction, without touching the dropper tip. This is to remove any
           liquid on the tip. To avoid infections and eye injury, do not let the
@@ -231,6 +262,7 @@
           and close the bottle right after you have used it. Keep the bottle at
           room temperature.
         </p>
+      </v-card>
       </v-col>
     </v-row>
     <v-row
@@ -244,9 +276,9 @@
         <v-card
           width="66%"
           color="transparent"
-          class="mx-auto elevation-0 mt-md-16 pt-md-16"
+          class="mx-auto elevation-0  marginTop"
         >
-          <p class="fs40 raleway font-weight-bold">
+          <p class="fs40">
             For more information, please see the
             <span class="text"> Patient Medication Information </span> or
             contact your Health Care professional.
@@ -254,9 +286,9 @@
         </v-card>
       </v-col>
       <v-col cols="12" lg="6" md="12" sm="12">
-        <h2 class="fs40 raleway font-weight-bold ml-16">
+        <p class="fs40 ml-16">
           Dosing & Administration
-        </h2>
+        </p>
         <v-card
           rounded
           width="80%"
@@ -338,4 +370,8 @@ export default {
 </script>
 
 <style>
+.marginTop{
+margin-top: 200px;
+}
+
 </style>
