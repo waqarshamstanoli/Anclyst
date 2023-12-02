@@ -25,7 +25,7 @@
       <v-col cols="12" lg="12" md="12" sm="12">
         <div class="text-center mt-10">
           <p
-            class="mt-md-16 text-center font-weight-black openSans mb-0 text-h1"
+            class="mt-md-16 text-center font-weight-black ralewayy mb-0 text-h1"
           >
           How can Zimed<sup class="fs36 font-weight-bold pl-0">® </sup> PF help?
           </p>
